@@ -1,0 +1,432 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #8c0a0a;
+    background: linear-gradient(90deg, rgba(140, 10, 10, 1) 0%, rgba(184, 0, 0, 1) 50%, rgba(99, 0, 0, 1) 100%);
+      font-family: "Gabriela", serif;
+}
+
+.VidenLogo{
+    margin: auto;
+    display: block;
+    width: 120px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.box {
+  transform: scale(0.2); 
+   height: auto;          
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+ul{
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	margin: auto;
+	max-width: 1000px;
+	justify-content: space-between;
+	text-align: center;
+  margin-top: 20px;
+}
+li {
+	padding: 1rem 2rem 1.15rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+	min-width: 80px;
+	margin: auto;
+}
+
+li:hover {
+  background-image: url('https://www.pngall.com/wp-content/uploads/13/Red-Button-PNG-Clipart.png');
+  background-size: 100% 100%;
+  color: #27262c;
+  animation: spring 300ms ease-out;
+  text-shadow: 0 -1px 0 #ef816c;
+  font-weight: bold;
+}
+li:active {
+  transform: translateY(4px);
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
+
+.centername{
+  box-sizing: border-box;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;            
+  position: relative;
+  left: 40px;
+  border: 2px solid white;        
+  padding: 10px 20px;
+  width: 500px;           
+  margin: 0 auto;                 
+  border-radius: 15px;           
+  font-weight: bold;       
+  color: white;   
+  background: #a60808;
+  background: linear-gradient(90deg, rgba(166, 8, 8, 1) 0%, rgba(186, 39, 39, 1) 50%, rgba(158, 16, 16, 1) 100%);                
+}
+
+.centername p{
+  word-spacing: 10px;
+}
+
+
+.centername:hover {
+  border: 1px solid black;
+  transform: scale(1.095);
+}
+
+.centername:active {
+    transform: scale(0.999) rotateZ(1.7deg);
+}
+
+iframe{
+  box-sizing: border-box;
+  width: 500px;
+  height: 350px;
+  border: 2px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  right: 300px;
+}
+
+iframe:hover {
+  border: 1px solid black;
+  transform: scale(1.095);
+}
+
+iframe:active {
+    transform: scale(0.999) rotateZ(1.7deg);
+}
+
+ .contact-container {
+  height: 350px;
+  box-sizing: border-box;
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  background-color: gray; 
+  background: #a60808;
+  background: linear-gradient(90deg, rgba(166, 8, 8, 1) 0%, rgba(186, 39, 39, 1) 50%, rgba(158, 16, 16, 1) 100%);
+  border-radius: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+  overflow: hidden;
+  flex-direction: column;
+  font-weight: bold;
+  overflow: hidden;
+  gap: 30px;
+  padding: 20px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 300px;
+  left: 50px;
+}
+
+.contact-container:hover {
+  border: 1px solid black;
+  transform: scale(1.095);
+}
+
+.contact-container:active {
+    transform: scale(0.999) rotateZ(1.7deg);
+}
+
+
+.contact-info {
+  flex: 1;
+  color:  white
+}
+
+.contact-info h2 {
+  font-size: 30px;
+  margin-bottom: 1px;
+  position: relative;
+  bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.section h3 span {
+  font-size: 14px;
+  color: #d7d2cd;
+  margin-left: 10px;
+}
+
+.section p {
+  margin: 5px 0 0;
+  font-size: 16px;
+}
+
+a {
+     text-decoration: none;
+     color: inherit;
+    }
+
+.section p img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+.allcontent{
+  display: flex;
+  justify-content: center; 
+  align-items: center;      
+  gap: 40px;                
+  margin-top: 50px;         
+  flex-wrap: wrap;  
+}
+
+
+
+.footer {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-top: 1px solid #ccc;
+   margin-top: 50px; 
+
+}
+
+
+
+.footer-content{
+  text-align: center;
+}
+
+.footer-icon {
+  width: 52px;
+  height: 52px;
+  transition: transform 0.2s ease;
+}
+
+.footer1-icon{
+  margin-top: 10px;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s ease;
+}
+
+
+.footer-icon:hover {
+  transform: scale(1.1);
+}
+
+.wrapper{
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.telemenu {
+  position: relative;
+  display: none; 
+  cursor: pointer;
+}
+
+
+.side-menu {
+     display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #8c0a0a;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(-100%);
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+     display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.side-menu ul li {
+    margin: 20px 0;
+}
+
+.side-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.side-menu.open {
+    display: flex;
+    transform: translateX(0);
+}
+
+
+@media (max-width: 768px) {
+
+  .VidenLogo {
+    width: 100px;
+  }
+
+
+
+  .telemenu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+  .nav-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 15px 0;
+    z-index: 1000;
+  }
+
+  .nav-container ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .nav-container.show {
+    display: block;
+  }
+
+
+
+  .centername,
+  .card {
+    width: 345px;
+  }
+
+  .newcard,
+  .benefits-card {
+    width: 350px;
+    height: 850px;
+    text-align: center;
+    padding: 10px;
+  }
+
+   .telemenu {
+     transform: scale(0.12); 
+    display: block;
+    text-align: center;
+    transform-origin: top center;
+    margin-bottom: -450px;
+    padding: 10px;
+    }
+
+
+     .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .navbar.active .nav-links {
+        display: flex;
+    }
+
+
+
+    .centername, iframe{
+    position: static;
+    left: auto ;
+    right: auto;
+    width: 100%; 
+    max-width: 350px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-container{
+     position: static;
+    left: auto ;
+    right: auto;
+    width: 100%; 
+  }
+
+  .allcontent {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  }
